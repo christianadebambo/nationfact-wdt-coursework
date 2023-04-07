@@ -44,7 +44,7 @@
         <?php
         $servername = "localhost";
         $username = "root";
-        $password = "";
+        $password = "hello";
         $dbname = "wdt-cw";
         
         try {
