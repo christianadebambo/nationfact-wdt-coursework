@@ -12,7 +12,7 @@ $('#compare').on('click', function () {
       "url": `https://cost-of-living-and-prices.p.rapidapi.com/prices?city_name=${city1Name}&country_name=${city1Country}`,
       "method": "GET",
       "headers": {
-        "X-RapidAPI-Key": "fe2a1b97e8msh900abbff718412ep192904jsnb01e2ddf0713",
+        "X-RapidAPI-Key": "YOUR-API-KEY",
         "X-RapidAPI-Host": "cost-of-living-and-prices.p.rapidapi.com"
       }
     };
@@ -23,7 +23,7 @@ $('#compare').on('click', function () {
       "url": `https://cost-of-living-and-prices.p.rapidapi.com/prices?city_name=${city2Name}&country_name=${city2Country}`,
       "method": "GET",
       "headers": {
-        "X-RapidAPI-Key": "fe2a1b97e8msh900abbff718412ep192904jsnb01e2ddf0713",
+        "X-RapidAPI-Key": "YOUR-API-KEY",
         "X-RapidAPI-Host": "cost-of-living-and-prices.p.rapidapi.com"
       }
     };
